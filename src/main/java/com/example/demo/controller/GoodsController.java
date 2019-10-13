@@ -23,7 +23,7 @@ public class GoodsController {
 	
 	@RequestMapping("list")
 	public String list(Model model,@RequestParam(defaultValue="1")long cape) {
-		
+		//执行查询语句
 		List<Goods> goodsList = goodsService.getGoodsList();
 		
 		model.addAttribute("goodsList", goodsList);

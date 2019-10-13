@@ -14,6 +14,8 @@ public class GoodsServiceImpI implements GoodsService{
 	@Resource
 	private GoodsMapperDao goodsMapperDao; 
 
+	
+	
 	@Override
 	public List<Goods> getGoodsList() {
 		// TODO Auto-generated method stub

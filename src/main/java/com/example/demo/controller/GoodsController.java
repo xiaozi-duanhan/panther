@@ -27,8 +27,12 @@ public class GoodsController {
 		//执行查询语句
 		List<Goods> goodsList = goodsService.getGoodsList();
 		
-		model.addAttribute("goodsList", goodsList);
 		
+		model.addAttribute("goodsList", goodsList);
+		System.out.println("呵呵哒");
+		System.out.println("呵呵哒");
+		System.out.println("呵呵哒");
+		System.out.println("呵呵哒");
 		
 		return "list";
 	}

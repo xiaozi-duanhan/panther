@@ -22,7 +22,8 @@ public class GoodsController {
 	private RedisTemplate<String, Object> redisTemplate; 
 	
 	@RequestMapping("list")
-	public String list(Model model,@RequestParam(defaultValue="1")long cape) {
+	public String list(Model model,@RequestParam(defaultValue="1")long cpage) {
+		
 		//执行查询语句
 		List<Goods> goodsList = goodsService.getGoodsList();
 		

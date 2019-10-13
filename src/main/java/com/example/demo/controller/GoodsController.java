@@ -31,8 +31,6 @@ public class GoodsController {
 		model.addAttribute("goodsList", goodsList);
 		System.out.println("呵呵哒");
 		System.out.println("呵呵哒");
-		System.out.println("呵呵哒");
-		System.out.println("呵呵哒");
 		
 		return "list";
 	}
